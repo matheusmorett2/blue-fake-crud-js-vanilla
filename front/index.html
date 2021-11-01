@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja de Roupas</title>
+</head>
+<body>
+    <h2>Busca</h2>
+    <form onsubmit="procurar(event)">
+        <input type="text" placeholder="Pesquisar" id="pesquisar"/>
+        <br/><br/>
+        <input type="submit" value="Pesquisar Categoria" id="botaoPesquisar"/>
+    </form>
+    <h2>Categorias</h2>
+    <ul id="categorias">
+
+    </ul>
+    <h2 id="tituloFormulario">Criar Categorias</h2>
+    <form onsubmit="cadastrar(event)">
+        <input type="text" placeholder="Digite o Nome da Categoria" id="nome"/>
+        <br/><br/>
+        <input type="submit" value="Cadastrar Categoria" id="botaoEnviar"/>
+    </form>
+</body>
+<script src="script.js"></script>
+</html>
